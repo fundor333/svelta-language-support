@@ -1,0 +1,25 @@
+{
+    "name": "svelta-support",
+    "displayName": "svelta_support",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "svelta",
+            "aliases": ["Svelta", "svelta"],
+            "extensions": [".txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "svelta",
+            "scopeName": "source.svelta",
+            "path": "./syntaxes/svelta.tmLanguage.json"
+        }]
+    }
+}
